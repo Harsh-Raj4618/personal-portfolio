@@ -17,6 +17,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 - 📞 Contact Form – Functional via FormSubmit, no backend needed
 - 🌙 Dark/Light Mode Toggle (only for large screen devices) – Smooth theme switch with persistent state
 - 📱 Responsive Design – Looks great on mobile, tablet, and desktop
+- 🤖 Interactive Chatbot Assistant – Responds to portfolio-related queries, toggles dark/light mode, scrolls to sections, and provides resume download – enhancing user engagement and accessibility.
 
 
 
