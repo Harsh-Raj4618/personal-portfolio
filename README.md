@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 
 ## 🔗 Live Demo
 
-[Click here to view the live site](https://myportfolio.tiiny.site)
+[Click here to view the live site](https://harsh-raj-tech.netlify.app/)
 
 ---
 
