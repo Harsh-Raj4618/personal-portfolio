@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
     chatBody.scrollTop = chatBody.scrollHeight;
   }
 
-  function toggleModeFromChat() {
+  window.toggleModeFromChat = function () { {
     document.body.classList.toggle("dark-mode");
     const isDark = document.body.classList.contains("dark-mode");
     localStorage.setItem("theme", isDark ? "dark" : "light");
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (themeToggleDesktop) themeToggleDesktop.textContent = icon;
 
     appendMessage("Bot", isDark ? "Dark mode enabled." : "Light mode enabled.");
-  }
+  };
 
   function handleUserMessage() {
     const userText = chatInput.value.trim();
