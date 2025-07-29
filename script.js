@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (themeToggleMobile) themeToggleMobile.textContent = icon;
     if (themeToggleDesktop) themeToggleDesktop.textContent = icon;
 
-    appendMessage("Bot", isDark ? "Dark mode enabled." : "Light mode enabled.");
+    appendMessage("Assistant", isDark ? "Dark mode enabled." : "Light mode enabled.");
   };
 
   function handleUserMessage() {
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     chatInput.value = "";
 
     const typingDiv = document.createElement("div");
-    typingDiv.innerHTML = `<strong>Bot:</strong> <span class="typing-dots"><span>.</span><span>.</span><span>.</span></span>`;
+    typingDiv.innerHTML = `<strong>Assistant:</strong><span class="typing-dots"><span></span><span></span><span></span></span>`;
     chatBody.appendChild(typingDiv);
     chatBody.scrollTop = chatBody.scrollHeight;
 
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", () => {
         reply = `Would you like to toggle the theme? <button onclick="toggleModeFromChat()">Toggle Mode</button>`;
       }
 
-      appendMessage("Bot", reply);
+      appendMessage("Assistant", reply);
     }, 1000);
   }
 
