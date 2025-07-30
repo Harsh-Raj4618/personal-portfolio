@@ -172,7 +172,9 @@ document.addEventListener("DOMContentLoaded", () => {
       if (lowerText.includes("hello")) {
         reply = responses.hello;
       } else if (lowerText.includes("resume")) {
-        reply = `${responses.resume} <a href="resume.pdf" download>Click here to download</a>.`;
+        const isDark = document.body.classList.contains("dark-mode");
+        const btnClass = isDark ? "dark" : "light";
+        reply = `${responses.resume} <br><a href="resume.pdf" download class="chat-toggle-btn resume-btn ${btnClass}">Download Resume</a>`;
       } else if (lowerText.includes("projects")) {
         reply = responses.projects;
         document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
