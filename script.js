@@ -143,6 +143,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (themeToggleMobile) themeToggleMobile.textContent = icon;
     if (themeToggleDesktop) themeToggleDesktop.textContent = icon;
 
+    document.querySelectorAll(".chat-toggle-btn").forEach(btn => {
+    btn.classList.remove("dark", "light");
+    btn.classList.add(isDark ? "dark" : "light");
+   });
+
     appendMessage("Assistant", isDark ? "Dark mode enabled." : "Light mode enabled.");
   };
 
