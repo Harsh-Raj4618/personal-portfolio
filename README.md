@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio website! This project showcases my work, skills, and experience using a clean, responsive, and modern design built with *HTML, **CSS, and **JavaScript*.
+Welcome to my personal portfolio website! This project showcases my work, skills, and experience using a clean, responsive, and modern design built with *HTML*, *CSS*, and *JavaScript*.
 
 ## 🔗 Live Demo
 
@@ -14,7 +14,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 - 🧑‍💼 About Me section – Brief intro, typing effect, resume download
 - 🛠 Skills and Technologies – Animated progress bars, percentage counters
 - 💼 Projects – Includes images, descriptions, and live/GitHub links
-- 📞 Contact Form – Functional via FormSubmit, no backend needed
+- 📞 Contact Form – Functional via Web3forms (https://web3forms.com), no backend needed
 - 🌙 Dark/Light Mode Toggle (only for large screen devices) – Smooth theme switch with persistent state
 - 📱 Responsive Design – Looks great on mobile, tablet, and desktop
 - 🤖 Interactive Chatbot Assistant – Responds to portfolio-related queries, toggles dark/light mode, scrolls to sections, and provides resume download – enhancing user engagement and accessibility.
@@ -32,7 +32,7 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 | **CSS**                  | Styling, layout, animations                    |
 | **JavaScript**           | Interactivity, toggles, typing & 3D effects    |
 | **Typed.js**             | Typing animation in About section              |
-| **FormSubmit**           | Handling contact form submissions (no backend) |
+| **Web3forms**           | Handling contact form submissions (no backend) |
 | **Google Fonts (Inter)** | Clean typography for readability               |
 | **Responsive Design**    | Ensures usability across devices               |
 
@@ -41,13 +41,13 @@ Welcome to my personal portfolio website! This project showcases my work, skills
 
 ## 📁 Folder Structure
 Portfolio
-  - html file
+  - Html file
     - index.html
-  - css file
+  - CSS file
     - style.css
-  - js file
+  - JS file
     - script.js
-  - images
+  - Images
     - project thumbnails
   - README.md
 
