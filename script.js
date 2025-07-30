@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const isDark = document.body.classList.contains("dark-mode");
         const btnClass = isDark ? "dark" : "light";
         reply = `${responses.resume} <br><a href="resume.pdf" download class="chat-toggle-btn resume-btn ${btnClass}">Download Resume</a>`;
-      } else if (lowerText.includes("projects")) {
+      } else if (lowerText.includes("project")) {
         reply = responses.projects;
         document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
       } else if (lowerText.includes("skills")) {
