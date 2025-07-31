@@ -717,22 +717,6 @@ img {
     box-sizing: border-box;
   }
 
-  .project-card .buttons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    justify-content: center;
-  }
-
-  .project-card .buttons a {
-    padding: 0.6rem 1.2rem;
-    border-radius: 0.7rem;
-    text-decoration: none;
-    background: linear-gradient(to right, #6a5acd, #8a2be2);
-    color: #fff;
-    font-weight: 900;
-  }
-  
   .projects-grid,
   .skills-grid {
     grid-template-columns: 1fr;
