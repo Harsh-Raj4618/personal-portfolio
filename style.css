@@ -725,7 +725,7 @@ img {
   }
 
   .project-card .buttons a {
-    padding: 0.7rem 1.7rem;
+    padding: 0.6rem 1.2rem;
     border-radius: 0.7rem;
     text-decoration: none;
     background: linear-gradient(to right, #6a5acd, #8a2be2);
