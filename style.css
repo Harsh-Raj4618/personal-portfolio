@@ -641,6 +641,19 @@ body.dark-mode .chat-header {
   color: #000;
 }
 
+#chat-close {
+  background: transparent;
+  color: var(--chat-header-text);
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#chat-close:hover {
+  transform: rotate(90deg);
+}
+
 .typing-dots {
   display: inline-block;
 }
